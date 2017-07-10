@@ -11,3 +11,23 @@
 body {
      font-family: 'Noto Sans JP', serif;
 }
+
+.container {
+  max-width: 48em;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-cell {
+    box-flex: 1;
+    flex: 1 1 auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.gallery img {
+  max-width:100%;
+}
